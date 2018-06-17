@@ -1,10 +1,20 @@
 package com.practice.springdemo;
 
-public class BaseBallCoach implements Coach {
+public class TrackCoach implements Coach {
 
 	@Override
 	public String getDailyWorkout() {
-		return "Baseball Coach";
+		return "Run a hard 5k";
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
