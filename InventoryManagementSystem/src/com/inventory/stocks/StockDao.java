@@ -76,7 +76,7 @@ public class StockDao {
 		return count;
 	}
 
-	public void generateInventoryReport() {
+	public static void generateInventoryReport() {
 		for (StockBean sb : stock) {
 			System.out.println(sb.getId() + "\t" + sb.getName() + "\t" + sb.getCost());
 		}
