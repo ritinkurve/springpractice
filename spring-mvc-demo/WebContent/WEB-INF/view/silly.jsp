@@ -4,17 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hello World</title>
+<title>Silly</title>
 </head>
 <body>
-<h3>Hello World Form Spring !</h3>
-<br>
-<br>
-student name : ${param.studentname} 
-
-<br>
-<br>
-<br>
-The message : ${message} 
+<h1>Hey Silly Page</h1>
 </body>
 </html>

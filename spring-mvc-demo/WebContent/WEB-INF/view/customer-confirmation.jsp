@@ -4,17 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hello World</title>
+<title>Customer Confirmation</title>
 </head>
 <body>
-<h3>Hello World Form Spring !</h3>
-<br>
-<br>
-student name : ${param.studentname} 
-
-<br>
-<br>
-<br>
-The message : ${message} 
+The Customer is confirmed : ${customer.firstName } ${customer.lastName}
+<br><br>
+Free Passes : ${customer.freePasses}
+<br><br>
+Postal Code : ${customer.postalCode}
+<br><br>
+Course Code : ${customer.courseCode}
 </body>
 </html>
